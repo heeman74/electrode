@@ -1,0 +1,23 @@
+{ "server": {
+    "connections": {
+      "compression": false
+    },
+    "debug" :{
+      "log": ["error"],
+      "request": ["error"]
+    },
+    "viewCache": false,
+    "xPoweredBy": true,
+    "port": 4000
+},
+"connections": {
+  "default": {
+    "port": 3030
+  }
+},
+  "webapp": {
+    "options": {
+      "insertTokenIds": true
+    }
+  }
+}
